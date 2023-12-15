@@ -58,3 +58,12 @@ button.bg-dark:focus {
     max-width: 50% !important;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .fh5co-cover{
+    background-image: url("/assets/images/gallery-16.jpg") !important;
+  }
+  #fh5co-event{
+    background-image: url("/assets/images/gallery-11.jpg") !important;
+  }
+}
