@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -7,7 +8,9 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   list = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19,20,21,22]
   
-  constructor() { }
+  constructor(
+    private router:Router
+  ) { }
 
   ngOnInit(): void {
   }
@@ -19,5 +22,7 @@ export class HomeComponent implements OnInit {
   href(index){
     return `assets/images/gallery-${index}.jpg`
   }
-
+  navigateTo(url){
+    this.router.navigateByUrl(url);
+  }
 }

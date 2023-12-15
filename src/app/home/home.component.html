@@ -1,5 +1,8 @@
 <div class="fh5co-loader"></div>
 
+<button #button style="visibility: hidden"></button>
+
+
 <div id="page">
   <nav class="fh5co-nav" role="navigation">
     <div class="container">
@@ -12,7 +15,7 @@
         <div class="col-xs-10 text-right menu-1">
           <ul>
             <li class="active"><a href="">Home</a></li>
-            <li><a href="/invitation">Invitation</a></li>
+            <li><a style="cursor: pointer;" (click)="navigateTo('/invitation')">Invitation</a></li>
           </ul>
         </div>
       </div>
