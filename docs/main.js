@@ -192,7 +192,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "div", 39);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](85, "i", 41);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "Sunday 24");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "Saturday 23");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "span");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "December, 2023");
@@ -227,7 +227,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "div", 39);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](110, "i", 41);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, "Monday 25");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, "Sunday 24");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "span");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "December, 2023");
